@@ -193,7 +193,10 @@
 				return false;
 
 			} );
-
+			
+			// Note: You need to stop click propagation for elements inside the
+			// dl-menu container to make this work
+			$(window.document).click($.proxy(this.closeMenu, this));
 		},
 		closeMenu : function() {
 			if( this.open ) {
