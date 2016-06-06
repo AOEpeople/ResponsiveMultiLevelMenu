@@ -221,6 +221,8 @@
 			}
 
 			this.open = false;
+			
+			$(window.document).trigger('closing.dlmenu');
 		},
 		openMenu : function() {
 			if( !this.open ) {
@@ -238,6 +240,8 @@
 			} );
 			this.$trigger.addClass( 'dl-active' );
 			this.open = true;
+			
+			$(window.document).trigger('opening.dlmenu');
 		},
 		// resets the menu to its original state (first level of options)
 		_resetMenu : function() {
