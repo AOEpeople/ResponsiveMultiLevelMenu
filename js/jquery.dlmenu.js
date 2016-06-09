@@ -194,9 +194,8 @@
 
 			} );
 			
-			// Note: You need to stop click propagation for elements inside the
-			// dl-menu container to make this work
-			$(window.document).click($.proxy(this.closeMenu, this));
+			$(window.document).on('closeNow.dlmenu', $.proxy(this.closeMenu, this));
+			$(window.document).on('openNow.dlmenu', $.proxy(this.openMenu, this));
 		},
 		closeMenu : function() {
 			if( this.open ) {
