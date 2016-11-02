@@ -8,7 +8,7 @@
  * Copyright 2013, Codrops
  * http://www.codrops.com
  */
-export default function( $, window, undefined ) {
+module.exports = function( $, window, undefined ) {
 
 	'use strict';
 

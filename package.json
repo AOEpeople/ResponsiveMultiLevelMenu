@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A responsive multi-level menu that shows its submenus in their own context, allowing for a space-saving presentation and usage.",
   "main": "js/jquery.dlmenu.js",
-  "jsnext:main": "js/jquery.dlmenu.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
