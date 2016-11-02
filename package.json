@@ -1,0 +1,19 @@
+{
+  "name": "ResponsiveMultiLevelMenu",
+  "version": "1.0.0",
+  "description": "A responsive multi-level menu that shows its submenus in their own context, allowing for a space-saving presentation and usage.",
+  "main": "js/jquery.dlmenu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AOEpeople/ResponsiveMultiLevelMenu.git"
+  },
+  "author": "Marc Dix (original author Botelho/Ilic)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AOEpeople/ResponsiveMultiLevelMenu/issues"
+  },
+  "homepage": "https://github.com/AOEpeople/ResponsiveMultiLevelMenu"
+}
